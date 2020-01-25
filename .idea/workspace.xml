@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd855c67-4624-463c-8ae1-46942b898286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Strategy/AngryBark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/BarkBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/EatBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/NormalBark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/NormalDiet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/ProteinDiet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Light.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/LightCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/LightOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Remote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Stereo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/StereoOffCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/StereoOnCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Command/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testing/Objekat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Testing/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +47,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Test" />
       <module name="DesignPatterns" />
@@ -75,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Builder.Test" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Command.Test" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Builder.*" />
+          <option name="PATTERN" value="Command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -151,7 +150,8 @@
       <workItem from="1579812948702" duration="598000" />
       <workItem from="1579862157785" duration="1922000" />
       <workItem from="1579895111945" duration="4867000" />
-      <workItem from="1579968409156" duration="7060000" />
+      <workItem from="1579968409156" duration="7452000" />
+      <workItem from="1579982666932" duration="1909000" />
     </task>
     <servers />
   </component>
@@ -159,25 +159,29 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579977947538">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579983842538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579977947538" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1579973141539">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579983842538" />
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1579984528686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579973141539" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1579973141539">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1579984528686" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1579984528686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579973141539" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1579973141538">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1579984528686" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1579984528686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579973141538" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1579973141539">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1579984528686" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1579984528686">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579973141539" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1579984528686" />
+    <state x="342" y="141" key="new project wizard" timestamp="1579978573844">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="141" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1579978573844" />
   </component>
 </project>
