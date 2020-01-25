@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd855c67-4624-463c-8ae1-46942b898286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Bridge/BeoDaljinac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/CrnDaljinac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Daljinac.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Most.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/SamsungTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/SonyTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bridge/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/AngryBark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/BarkBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/EatBehaviour.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/NormalBark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/NormalDiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/ProteinDiet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/Adapter/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/Adapter/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testing/Objekat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Testing/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.Test (1)">
+  <component name="RunManager" selected="Application.Test (2)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bridge.Test" />
       <module name="DesignPatterns" />
@@ -60,12 +62,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Testing.Test" />
+    <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy.Test" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Testing.*" />
+          <option name="PATTERN" value="Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +151,7 @@
       <workItem from="1579812948702" duration="598000" />
       <workItem from="1579862157785" duration="1922000" />
       <workItem from="1579895111945" duration="4867000" />
-      <workItem from="1579968409156" duration="5336000" />
+      <workItem from="1579968409156" duration="7060000" />
     </task>
     <servers />
   </component>
@@ -157,10 +159,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579972630292">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1579977947538">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579972630292" />
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579977947538" />
     <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1579973141539">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
