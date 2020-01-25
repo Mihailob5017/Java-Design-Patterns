@@ -1,6 +1,6 @@
 package Builder;
 /*
-    TIP: Strukturni Dijagram
+    TIP: Gradivni Dijagram
 
     RALOG: Razdvajamo objekat od njegove konstrukcije, korak po korak sklapamo manje objekate i nadodajeo ih
     i na taj nacin gradimo jedan veci objekat.

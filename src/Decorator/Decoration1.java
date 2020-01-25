@@ -5,6 +5,7 @@ public class Decoration1 extends ComponentDecorator {
 
     public Decoration1(RootComponent root) {
         this.root = root;
+        System.out.println("Decoration 1");
     }
 
     @Override
