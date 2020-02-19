@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bd855c67-4624-463c-8ae1-46942b898286" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Composite/Employe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/ShapeMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Facade/Triangle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579901034743" />
@@ -47,7 +51,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.Test (2)">
+  <component name="RunManager" selected="Application.Test (3)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Proxy.Test" />
       <module name="DesignPatterns" />
@@ -74,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prototype.Test" />
+    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Facade.Test" />
       <module name="DesignPatterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Prototype.*" />
+          <option name="PATTERN" value="Facade.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
         <item itemvalue="Application.Test (5)" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +157,8 @@
       <workItem from="1579968409156" duration="7452000" />
       <workItem from="1579982666932" duration="4183000" />
       <workItem from="1580049583564" duration="142000" />
-      <workItem from="1582120834775" duration="9220000" />
+      <workItem from="1582120834775" duration="10114000" />
+      <workItem from="1582133607558" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="Added the Template Pattern">
       <created>1582123574736</created>
@@ -176,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1582129069734</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added the Composite Pattern">
+      <created>1582130833401</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582130833401</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,45 +198,46 @@
     <MESSAGE value="Added the Template Pattern" />
     <MESSAGE value="Added the State Pattern" />
     <MESSAGE value="Added the Proxy Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the Proxy Pattern" />
+    <MESSAGE value="Added the Composite Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added the Composite Pattern" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1582129883195">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser" timestamp="1582134686090">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582129883195" />
-    <state x="522" y="115" key="CommitChangelistDialog2" timestamp="1582129068768">
+    <state x="765" y="230" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582134686090" />
+    <state x="522" y="115" key="CommitChangelistDialog2" timestamp="1582130832309">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="522" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582129068768" />
+    <state x="522" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1582130832309" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1580049726264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580049726264" />
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1582130795058">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom" timestamp="1582131800931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582130795058" />
-    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1582130795058">
+    <state width="1877" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1582131800931" />
+    <state width="1877" height="284" key="GridCell.Tab.0.center" timestamp="1582131800931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582130795058" />
-    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1582130795058">
+    <state width="1877" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1582131800931" />
+    <state width="1877" height="284" key="GridCell.Tab.0.left" timestamp="1582131800931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582130795058" />
-    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1582130795058">
+    <state width="1877" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1582131800931" />
+    <state width="1877" height="284" key="GridCell.Tab.0.right" timestamp="1582131800931">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582130795058" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582129073510">
+    <state width="1877" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1582131800931" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1582130836492">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582129073510" />
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582120837322">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1582130836492" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1582133762324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582120837322" />
+    <state x="655" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582133762324" />
     <state x="635" y="210" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1582122590777">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
